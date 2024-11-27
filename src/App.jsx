@@ -19,8 +19,19 @@ function App() {
         <section className="section">
           <h2>About Me</h2>
           <div className="card-container">
-            <div className="card">About Me Card 1</div>
-            <div className="card">About Me Card 2</div>
+            <div className="card">
+              <div>名前: Takata Soma</div>
+              <div>学年: 学部3年</div>
+              <div>学部・学科: システム理工学部・電子情報システム学科</div>
+              <div>出身: 富山県</div>
+              <div>TechNova代表、高田ソウマです!頑張ります!</div>
+            </div>
+            <div className="card">
+              <div className="card-title">趣味</div>
+              <li>ダンス</li>
+              <li>プログラミング</li>
+              <li>ダンス</li>
+            </div>
           </div>
         </section>
 
