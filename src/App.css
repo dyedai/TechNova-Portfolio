@@ -1,0 +1,86 @@
+/* 共通スタイル */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ヘッダー */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+/* メインコンテンツ */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card {
+  width: 45%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+}
+
+/* フッター */
+.footer {
+  text-align: right;
+  padding: 10px 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #61dafb;
+  border: none;
+  color: #282c34;
+  cursor: pointer;
+  font-size: 1rem;
+}
