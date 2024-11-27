@@ -8,16 +8,16 @@ function App() {
       {/* ヘッダー */}
       <header className="header">
         <div className="header-logo">
-          <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+          <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Logo" />
           <h1 className="name">Your Name</h1>
         </div>
 
         <div>
           <a href="https://github.com/your-profile" className="link">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" />
           </a>
           <a href="https://github.com/your-profile" className="link">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" />
           </a>
         </div>
       </header>
@@ -48,17 +48,16 @@ function App() {
         <section className="section">
           <h2>Skills</h2>
           <div className="image-container">
-            {/* https://devicon.dev/ このサイトからhtml,css,javascriptをそれぞれ検索してコピペ*/}
+            {/* https://devicon.dev/ このサイトからhtml,css,javascriptをそれぞれ検索してコピペ */}
 
             {/* HTML */}
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+            <img className="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" />
 
             {/* CSS */}
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+            <img className="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" />
 
             {/* Javascript */}
-
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            <img className="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" />
           </div>
         </section>
 
@@ -66,9 +65,22 @@ function App() {
         <section className="section">
           <h2>Works</h2>
           <div className="image-container">
-            <img src="work1.png" alt="Work 1" className="image" />
-            <img src="work2.png" alt="Work 2" className="image" />
-            <img src="work3.png" alt="Work 3" className="image" />
+            <div className="work-item">
+              <img src="public/noise.gif" alt="Work 1" className="image" />
+              <p className="work-title">Work 1</p>
+            </div>
+            <div className="work-item">
+              <img src="public/noise.gif" alt="Work 2" className="image" />
+              <p className="work-title">Work 2</p>
+            </div>
+            <div className="work-item">
+              <img src="public/noise.gif" alt="Work 3" className="image" />
+              <p className="work-title">Work 3</p>
+            </div>
+            <div className="work-item">
+              <img src="public/noise.gif" alt="Work 4" className="image" />
+              <p className="work-title">Work 4</p>
+            </div>
           </div>
         </section>
       </main>
