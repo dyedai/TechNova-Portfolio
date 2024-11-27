@@ -7,10 +7,19 @@ function App() {
     <div className="app">
       {/* ヘッダー */}
       <header className="header">
-        <h1 className="name">Your Name</h1>
-        <a href="https://github.com/your-profile" className="link">
-          GitHub
-        </a>
+        <div className="header-logo">
+          <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+          <h1 className="name">Your Name</h1>
+        </div>
+
+        <div>
+          <a href="https://github.com/your-profile" className="link">
+            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+          </a>
+          <a href="https://github.com/your-profile" className="link">
+            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+          </a>
+        </div>
       </header>
 
       {/* メインコンテンツ */}
@@ -28,9 +37,17 @@ function App() {
         <section className="section">
           <h2>Skills</h2>
           <div className="image-container">
-            <img src="skill1.png" alt="Skill 1" className="image" />
-            <img src="skill2.png" alt="Skill 2" className="image" />
-            <img src="skill3.png" alt="Skill 3" className="image" />
+            {/* https://devicon.dev/ このサイトからhtml,css,javascriptをそれぞれ検索してコピペ*/}
+
+            {/* HTML */}
+            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+
+            {/* CSS */}
+            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+
+            {/* Javascript */}
+
+            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
           </div>
         </section>
 
