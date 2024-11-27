@@ -47,9 +47,14 @@ function App() {
 
       {/* フッター */}
       <footer className="footer">
-        <button onClick={scrollToTop} className="button">
-          ページトップに戻る
-        </button>
+        <h1 className="name">Your Name</h1>
+        <div className="footer-left">
+          <img className="icon-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+          <img className="icon-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" />
+          <button onClick={scrollToTop} className="button">
+            <img className="icon-black" src="https://sato-icons.com/wp/wp-content/uploads/2020/10/%E4%B8%8A%E5%90%91%E3%81%8D%E7%9F%A2%E5%8D%B0%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.svg" />
+          </button>
+        </div>
       </footer>
     </div>
   );
