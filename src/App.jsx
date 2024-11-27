@@ -12,12 +12,15 @@ function App() {
           <h1 className="name">Your Name</h1>
         </div>
 
+        {/* GitHubのリンク */}
         <div>
           <a href="https://github.com/your-profile" className="link">
             <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" />
           </a>
+
+          {/* Xのリンク */}
           <a href="https://github.com/your-profile" className="link">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" />
+            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" />
           </a>
         </div>
       </header>
@@ -48,7 +51,7 @@ function App() {
         <section className="section">
           <h2>Skills</h2>
           <div className="image-container">
-            {/* https://devicon.dev/ このサイトからhtml,css,javascriptをそれぞれ検索してコピペ */}
+            {/* https://devicon.dev/ このサイトからhtml,css,javascriptをそれぞれ検索してコピペしている（github, xのアイコンも同様） */}
 
             {/* HTML */}
             <img className="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" />
