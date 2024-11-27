@@ -7,7 +7,7 @@ function App() {
     <div className="app">
       {/* ヘッダー */}
       <header className="header">
-        <h1 className="name">Your Name</h1>
+        <h1 className="name">breaking by kanta</h1>
         <a href="https://github.com/your-profile" className="link">
           GitHub
         </a>
