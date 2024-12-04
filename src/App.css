@@ -22,7 +22,7 @@ body {
   color: white;
 }
 
-.header-logo {
+.header-name {
   display: flex;
   align-items: center;
 }
@@ -30,11 +30,13 @@ body {
 .name {
   margin: 0;
   font-size: 1.5rem;
+  padding: 0 0 0 10px;
 }
 
 .link {
   text-decoration: none;
   color: white;
+  padding: 0 10px;
   font-size: 1rem;
 }
 

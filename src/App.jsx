@@ -7,13 +7,12 @@ function App() {
     <div className="app">
       {/* ヘッダー */}
       <header className="header">
-        <div className="header-logo">
-          <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Logo" />
+        <div className="header-name">
+          <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
           <h1 className="name">Your Name</h1>
         </div>
 
-        {/* GitHubのリンク */}
-        <div>
+        <div className="header-lmg">
           <a href="https://github.com/your-profile" className="link">
             <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" />
           </a>
