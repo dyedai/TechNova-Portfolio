@@ -4,22 +4,32 @@ function App() {
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
-    <div className="app">
+    <div className="">
       {/* ヘッダー */}
       <header className="header">
         <div className="header-name">
-          <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+          <img
+            className="icon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+          />
           <h1 className="name">Your Name</h1>
         </div>
 
         <div className="header-lmg">
           <a href="https://github.com/your-profile" className="link">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" />
+            <img
+              className="icon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+              alt="GitHub"
+            />
           </a>
 
           {/* Xのリンク */}
           <a href="https://github.com/your-profile" className="link">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" />
+            <img
+              className="icon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
+            />
           </a>
         </div>
       </header>
@@ -53,13 +63,25 @@ function App() {
             {/* https://devicon.dev/ このサイトからhtml,css,javascriptをそれぞれ検索してコピペしている（github, xのアイコンも同様） */}
 
             {/* HTML */}
-            <img className="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" />
+            <img
+              className="skillicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+              alt="HTML5"
+            />
 
             {/* CSS */}
-            <img className="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" />
+            <img
+              className="skillicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+              alt="CSS3"
+            />
 
             {/* Javascript */}
-            <img className="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" />
+            <img
+              className="skillicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+            />
           </div>
         </section>
 
@@ -91,10 +113,19 @@ function App() {
       <footer className="footer">
         <h1 className="name">Your Name</h1>
         <div className="footer-left">
-          <img className="icon-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-          <img className="icon-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" />
+          <img
+            className="icon-white"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+          />
+          <img
+            className="icon-white"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
+          />
           <button onClick={scrollToTop} className="button">
-            <img className="icon-black" src="https://sato-icons.com/wp/wp-content/uploads/2020/10/%E4%B8%8A%E5%90%91%E3%81%8D%E7%9F%A2%E5%8D%B0%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.svg" />
+            <img
+              className="icon-black"
+              src="https://sato-icons.com/wp/wp-content/uploads/2020/10/%E4%B8%8A%E5%90%91%E3%81%8D%E7%9F%A2%E5%8D%B0%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.svg"
+            />
           </button>
         </div>
       </footer>
