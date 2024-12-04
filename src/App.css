@@ -13,7 +13,7 @@ body {
   align-items: center;
   padding: 10px 20px;
   background-color: #282c34;
-  color: white;
+  color: red;
 }
 
 .header-name {
@@ -22,9 +22,12 @@ body {
 }
 
 .name {
-  margin: 0;
-  font-size: 1.5rem;
-  padding: 0 0 0 10px;
+  margin: 15px;
+
+  padding-left: 15px;
+  padding-top: 150px;
+  padding-bottom: 15px;
+  padding-right: 15px;
 }
 
 .link {
