@@ -1,8 +1,10 @@
 import "./App.css";
 
 function App() {
-  const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
-
+  const scrollToTop = () => {
+    console.log("上に行くよ！");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <div className="">
       {/* ヘッダー */}
