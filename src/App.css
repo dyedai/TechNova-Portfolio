@@ -6,20 +6,16 @@ body {
   color: #333;
 }
 
-.app {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 /* ヘッダー */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #282c34;
-  color: white;
+  /* ヘッダーの背景色を変える */
+  background-color: #267020;
+  /* Your Nameの色を変える */
+  color: red;
 }
 
 .header-name {
@@ -28,9 +24,12 @@ body {
 }
 
 .name {
-  margin: 0;
-  font-size: 1.5rem;
-  padding: 0 0 0 10px;
+  margin: 15px;
+
+  padding-left: 15px;
+  padding-top: 150px;
+  padding-bottom: 15px;
+  padding-right: 15px;
 }
 
 .link {
@@ -117,7 +116,6 @@ body {
   font-size: 1rem;
 }
 
-
 .icon-white {
   width: 30px;
   height: 30px;
@@ -139,7 +137,7 @@ body {
 .icon {
   width: 50px;
   height: 50px;
-  filter: brightness(0) invert(1);
+  /* filter: brightness(0) invert(1); */
 }
 
 .skillicon {
