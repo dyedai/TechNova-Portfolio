@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="">
       {/* ヘッダー */}
-      <header className="header">
+      <div className="header">
         <div className="header-name">
           <img
             className="icon"
@@ -17,7 +17,8 @@ function App() {
         </div>
 
         <div className="header-lmg">
-          <a href="https://github.com/your-profile" className="link">
+          {/* 自分のgithubのリンクを入れる */}
+          <a href="https://www.shibaura-it.ac.jp/" className="link">
             <img
               className="icon"
               // githubのアイコンをいれる
@@ -35,7 +36,7 @@ function App() {
             />
           </a>
         </div>
-      </header>
+      </div>
 
       {/* メインコンテンツ */}
       <main className="main">
@@ -48,13 +49,19 @@ function App() {
               <div>学年: 学部3年</div>
               <div>学部・学科: システム理工学部・電子情報システム学科</div>
               <div>出身: 富山県</div>
-              <div>TechNova代表、高田ソウマです!頑張ります!</div>
+              {/* 任意の場所で改行する */}
+              <div>
+                TechNova代表、高田ソウマです!頑張ります!TechNova代表、高田ソウマです!頑張ります!TechNova代表、高田ソウマです!頑張ります!TechNova代表、高田ソウマです!頑張ります!TechNova代表、高田ソウマです!頑張ります!TechNova代表、高田ソウマです!頑張ります!
+              </div>
             </div>
             <div className="card">
               <div className="card-title">趣味</div>
-              <li>ダンス</li>
-              <li>プログラミング</li>
-              <li>ダンス</li>
+              {/* 箇条書きのタグに変更する */}
+              <>
+                <div>ダンス</div>
+                <div>プログラミング</div>
+                <div>ダンス</div>
+              </>
             </div>
           </div>
         </section>
@@ -113,7 +120,7 @@ function App() {
       </main>
 
       {/* フッター */}
-      <footer className="footer">
+      <div className="footer">
         <h1 className="name">Your Name</h1>
         <div className="footer-left">
           <img
@@ -131,7 +138,7 @@ function App() {
             />
           </button>
         </div>
-      </footer>
+      </div>
     </div>
   );
 }
