@@ -8,19 +8,30 @@ function App() {
       {/* ヘッダー */}
       <header className="header">
         <div className="header-logo">
-          <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Logo" />
+          <img
+            className="icon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+            alt="Logo"
+          />
           <h1 className="name">Your Name</h1>
         </div>
 
         {/* GitHubのリンク */}
         <div>
           <a href="https://github.com/your-profile" className="link">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" />
+            <img
+              className="icon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+              alt="GitHub"
+            />
           </a>
 
           {/* Xのリンク */}
           <a href="https://github.com/your-profile" className="link">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" />
+            <img
+              className="icon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
+            />
           </a>
         </div>
       </header>
@@ -29,7 +40,7 @@ function App() {
       <main className="main">
         {/* AboutMe セクション */}
         <section className="section">
-          <h2>About Me</h2>
+          <h2>kanta</h2>
           <div className="card-container">
             <div className="card">
               <div>名前: Takata Soma</div>
@@ -54,13 +65,25 @@ function App() {
             {/* https://devicon.dev/ このサイトからhtml,css,javascriptをそれぞれ検索してコピペしている（github, xのアイコンも同様） */}
 
             {/* HTML */}
-            <img className="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" />
+            <img
+              className="skillicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+              alt="HTML5"
+            />
 
             {/* CSS */}
-            <img className="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" />
+            <img
+              className="skillicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+              alt="CSS3"
+            />
 
             {/* Javascript */}
-            <img className="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" />
+            <img
+              className="skillicon"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+            />
           </div>
         </section>
 
