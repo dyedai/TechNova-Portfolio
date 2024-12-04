@@ -10,7 +10,8 @@ function App() {
         <div className="header-name">
           <img
             className="icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+            // 自分のアイコンをいれる
+            src="https://pbs.twimg.com/profile_images/1607995544168980480/p-qNwFQV_400x400.png"
           />
           <h1 className="name">Your Name</h1>
         </div>
@@ -19,7 +20,8 @@ function App() {
           <a href="https://github.com/your-profile" className="link">
             <img
               className="icon"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+              // githubのアイコンをいれる
+              src="https://illust-dayori.com/wp-content/uploads/2023/01/dog-akita-kuro.png"
               alt="GitHub"
             />
           </a>
@@ -28,7 +30,8 @@ function App() {
           <a href="https://github.com/your-profile" className="link">
             <img
               className="icon"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
+              // Xのアイコンをいれる"
+              src="https://image.biccamera.com/img/00000003200052_A01.jpg?sr.dw=600&sr.jqh=60&sr.dh=600&sr.mat=1"
             />
           </a>
         </div>

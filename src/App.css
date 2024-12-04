@@ -12,7 +12,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #282c34;
+  /* ヘッダーの背景色を変える */
+  background-color: #267020;
+  /* Your Nameの色を変える */
   color: red;
 }
 
@@ -135,7 +137,7 @@ body {
 .icon {
   width: 50px;
   height: 50px;
-  filter: brightness(0) invert(1);
+  /* filter: brightness(0) invert(1); */
 }
 
 .skillicon {
