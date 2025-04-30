@@ -6,23 +6,23 @@ function App() {
   return (
     <div className="app">
       {/* ヘッダー */}
-      <header className="header">
+      <div className="header">
         <div className="header-name">
-          <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-          <h1 className="name">Your Name</h1>
+          <img className="icon" src="https://pbs.twimg.com/profile_images/1607995544168980480/p-qNwFQV_400x400.png" />
+          <div className="name">Your Name</div>
         </div>
 
         <div className="header-lmg">
           <a href="https://github.com/your-profile" className="link">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" />
+            <img className="icon" src="https://illust-dayori.com/wp-content/uploads/2023/01/dog-akita-kuro.png" alt="GitHub" />
           </a>
 
           {/* Xのリンク */}
           <a href="https://github.com/your-profile" className="link">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" />
+            <img className="icon" src="https://pbs.twimg.com/profile_images/1607995544168980480/p-qNwFQV_400x400.png" />
           </a>
         </div>
-      </header>
+      </div>
 
       {/* メインコンテンツ */}
       <main className="main">
@@ -39,9 +39,9 @@ function App() {
             </div>
             <div className="card">
               <div className="card-title">趣味</div>
-              <li>ダンス</li>
-              <li>プログラミング</li>
-              <li>ダンス</li>
+              <div>ダンス</div>
+              <div>プログラミング</div>
+              <div>ダンス</div>
             </div>
           </div>
         </section>
@@ -69,26 +69,26 @@ function App() {
           <div className="image-container">
             <div className="work-item">
               <img src="public/noise.gif" alt="Work 1" className="image" />
-              <p className="work-title">Work 1</p>
+              <div className="work-title">Work 1</div>
             </div>
             <div className="work-item">
               <img src="public/noise.gif" alt="Work 2" className="image" />
-              <p className="work-title">Work 2</p>
+              <div className="work-title">Work 2</div>
             </div>
             <div className="work-item">
               <img src="public/noise.gif" alt="Work 3" className="image" />
-              <p className="work-title">Work 3</p>
+              <div className="work-title">Work 3</div>
             </div>
             <div className="work-item">
               <img src="public/noise.gif" alt="Work 4" className="image" />
-              <p className="work-title">Work 4</p>
+              <div className="work-title">Work 4</div>
             </div>
           </div>
         </section>
       </main>
 
       {/* フッター */}
-      <footer className="footer">
+      <div className="footer">
         <h1 className="name">Your Name</h1>
         <div className="footer-left">
           <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
@@ -97,7 +97,7 @@ function App() {
             <img className="icon-black" src="https://sato-icons.com/wp/wp-content/uploads/2020/10/%E4%B8%8A%E5%90%91%E3%81%8D%E7%9F%A2%E5%8D%B0%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.svg" />
           </button>
         </div>
-      </footer>
+      </div>
     </div>
   );
 }
